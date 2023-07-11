@@ -24,6 +24,7 @@ header img{
 main{
   background-color: #F6F8F9;
   padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 16px;
 }
 
@@ -42,12 +43,12 @@ main{
   width: 60%;
   background-color: white;
   padding: 10px 40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-bottom: 1px solid #F6F8F9;
 }
 
-button{
+.container-top button{
   padding: 5px 11px;
   border-radius: 5px;
   border: 1px;
@@ -69,16 +70,68 @@ button{
 
 /* LISTA */
 
-ol{
+main ol{
   list-style: none;
   padding: 20px 0px;
 }
 
-li{
-  margin: 5px 0px;
+main p{
+  display: inline-block;
 }
 
-.titolo{
+main li{
+  margin: 10px 0px;
+}
+
+main span{
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+main ol .titolo{
   font-weight: 700;
   font-size: 18px;
+}
+
+main ol #cross{
+  color: red;
+  border: 1px solid red;
+}
+
+main ol #secondcross{
+  color: red;
+  border: 1px solid red;
+}
+
+main ol button{
+  border-radius: 20%;
+  border: none;
+  padding: 7px;
+  color: white;
+  font-size: 10px;
+}
+
+main ol .editorial{
+  background-color: #47ADF2;
+}
+
+#q1-goals{
+  background-color: #9C73E4;
+}
+
+#recruiting{
+  background-color: #63C0A8;
+}
+
+#mobile{
+  background-color: #F29F33;
+}
+
+#website{
+  background-color: #D864A2;
+}
+
+#sales{
+  background-color: #B1CA26;
 }
