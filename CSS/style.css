@@ -83,9 +83,24 @@ main li{
   margin: 10px 0px;
 }
 
-main span{
+main .icona{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
   color: green;
   border: 1px solid green;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+main .icona-cross{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: red;
+  border: 1px solid red;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -96,11 +111,6 @@ main ol .titolo{
 }
 
 main ol #cross{
-  color: red;
-  border: 1px solid red;
-}
-
-main ol #secondcross{
   color: red;
   border: 1px solid red;
 }
