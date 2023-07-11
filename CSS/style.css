@@ -8,6 +8,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* header */
+
 header h1{
   display: inline-block;
 }
@@ -16,3 +18,28 @@ header img{
   vertical-align: middle;
   padding: 10px 0px 10px 20px;
 }
+
+/* main */
+
+main{
+  background-color: #F6F8F9;
+  padding-top: 20px;
+}
+
+.container{
+  margin: auto;
+  width: 60%;
+  background-color: white;
+  padding: 10px 40px;
+  border-bottom: 1px solid #F6F8F9;
+  border-radius: 5px;
+}
+
+button{
+  padding: 7px 9px;
+  border-radius: 5px;
+  border: 1px;
+  font-size: 10px;
+  background-color: white;
+}
+
