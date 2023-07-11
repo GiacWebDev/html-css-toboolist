@@ -74,6 +74,10 @@ ol{
   padding: 20px 0px;
 }
 
+li{
+  margin: 5px 0px;
+}
+
 .titolo{
   font-weight: 700;
   font-size: 18px;
